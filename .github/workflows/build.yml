@@ -6,7 +6,7 @@ on:
       MANIFEST_URL:
         description: 'Kernel Manifest'
         required: true
-        default: 'https://github.com/cd-Crypton/android_kernel-manifest'
+        default: 'https://github.com/a02-trial/android_kernel-manifest'
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
