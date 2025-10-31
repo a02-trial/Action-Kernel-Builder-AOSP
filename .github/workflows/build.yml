@@ -10,11 +10,11 @@ on:
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
-        default: 'realme/sm6225'
+        default: 'samsung/mt6739'
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
-        default: 'sm6225/build.config.sm6225'
+        default: 'mt6739/build.config.mt6739'
       KERNEL_IMAGE_NAME:
         description: 'Image, Image.gz, Image.gz-dtb, etc.'
         required: true
