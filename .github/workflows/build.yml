@@ -6,11 +6,11 @@ on:
       MANIFEST_URL:
         description: 'Kernel Manifest'
         required: true
-        default: 'https://github.com/a02-trial/android_kernel-manifest'
+        default: 'https://github.com/a02-trial/a02kernel'
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
-        default: 'realme/sm6225'
+        default: 'main'
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
