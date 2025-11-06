@@ -10,7 +10,7 @@ on:
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
-        default: 'mt6739'
+        default: 'a02-trial-patch-1'
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
