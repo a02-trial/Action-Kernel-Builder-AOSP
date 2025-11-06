@@ -20,10 +20,4 @@ jobs:
           kernel-branch: main
           config: a02_defconfig
           arch: arm
-          aosp-gcc: true
-          other-gcc32-branch: main
-          ksu: true
-          ksu-version: main
-          android-version: 12
-          disable-lto: true
-          anykernel3: true
+          
