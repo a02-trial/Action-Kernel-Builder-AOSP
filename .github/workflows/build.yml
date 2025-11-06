@@ -21,7 +21,7 @@ on:
 
 jobs:
   build:
-    name: Build Kernel by ${{ github.actor }}
+    name: ${{ github.actor }} Build Kernel Now
     runs-on: ubuntu-22.04
     if: github.event.repository.owner.id == github.event.sender.id
     permissions:
