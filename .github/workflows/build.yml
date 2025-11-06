@@ -6,11 +6,11 @@ on:
       MANIFEST_URL:
         description: 'Kernel Manifest'
         required: true
-        default: 'https://github.com/a02-trial/android_kernel-manifest'
+        default: 'https://android.googlesource.com/kernel/manifest'
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
-        default: 'samsung/mt6739'
+        default: 'common-android-4.14-stable'
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
