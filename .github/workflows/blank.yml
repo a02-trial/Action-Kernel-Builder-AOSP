@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Build Kernel
-        uses: a02-trial/Action-Kernel-Builder-AOSP@main
+        uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/a02-trial/a022f_kernel
           kernel-branch: main
