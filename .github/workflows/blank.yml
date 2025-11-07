@@ -1,0 +1,25 @@
+# A simple action usage
+name: Build Kernel
+on:
+  workflow_dispatch:
+
+jobs:
+  Build-Kernel:
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Build Kernel
+        uses: dabao1955/kernel_build_action@main
+        with:
+          kernel-url: https://github.com/a02-trial/a022f_kernel
+          kernel-branch: main
+          config: a02_defconfig
+          arch: arm
+          aosp-gcc: true
+          aosp-clang: true
+          android-version: 11
+          
