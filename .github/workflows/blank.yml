@@ -1,10 +1,5 @@
 # A simple action usage
 name: Simpel Builder
-description: "An action to build android kernel."
-
-branding:
-  icon: 'activity'
-  color: 'blue'
 
 on:
   workflow_dispatch:
