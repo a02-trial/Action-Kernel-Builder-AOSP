@@ -1,120 +1,24 @@
 # A simple action usage
 name: Simpel Builder
-
 on:
   workflow_dispatch:
     inputs:
       MANIFEST_URL:
         description: 'Kernel Manifest'
         required: true
-  kernel-url: https://github.com/a02-trial/a022f_kernel
-    required: true
-  depth:
-    required: false
-    default: 1
-  vendor:
-    required: false
-    default: false
-  vendor-url:
-    required: false
-  kernel-dir: kernel-4.14
-    required: true
-    default: kernel
-  vendor-dir:
-    required: false
-    default: vendor
-  kernel-branch: main
-    required: false
-    default: main
-  vendor-branch:
-    required: false
-    default: main
-  config: a02_defconfig
-    required: true
-    default: defconfig
-  arch: arm
-    required: true
-    default: arm
-  android-version: 11.0
-    required: true
-    default: "11"
-  ksu:
-    required: false
-    default: false
-  rekernel:
-    required: false
-    default: false
-  ksu-version:
-    required: false
-    default: "main"
-  ksu-other:
-    required: false
-    default: false
-  ksu-url:
-    required: false
-  ksu-lkm:
-    required: false
-    default: false
-  disable-lto:
-    required: false
-    default: false
-  lxc:
-    required: false
-    default: false
-  lxc-patch:
-    required: false
-    default: false
-  nethunter:
-    required: false
-    default: false
-  nethunter-patch:
-    required: false
-    default: false
-  kvm:
-    required: false
-    default: false
-  ccache:
-    required: false
-    default: false
-  aosp-gcc:
-    required: false
-    default: false
-  other-gcc32-url:
-    required: false
-  other-gcc32-branch:
-    required: false
-    default: main
-  other-gcc64-url:
-    required: false
-  other-gcc64-branch:
-    required: false
-    default: main
-  aosp-clang:
-    required: false
-    default: false
-  aosp-clang-version:
-    required: false
-    default: "r383902"
-  other-clang-url:
-    required: false
-  other-clang-branch:
-    required: false
-    default: main
-  anykernel3:
-    required: false
-    default: false
-  anykernel3-url:
-    required: false
-  bootimg-url:
-    required: false
-  release:
-    required: false
-    default: false
-  access-token:
-    required: false
-  extra-make-args:
-    required: false
-    default: '[]'
+        default: 'https://github.com/a02-trial/android_kernel-manifest'
+      MANIFEST_BRANCH:
+        description: 'Kernel Manifest Branch'
+        required: true
+        default: 'mt6739'
+      BUILD_CONFIG:
+        description: 'Customized build.config file'
+        required: true
+        default: 'build.config.mt6739'
+      KERNEL_IMAGE_NAME:
+        description: 'Image'
+        required: true
+        default: 'Image'
 
 runs:
   using: 'composite'
