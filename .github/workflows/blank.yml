@@ -6,7 +6,12 @@ branding:
   icon: 'activity'
   color: 'blue'
 
-inputs:
+on:
+  workflow_dispatch:
+    inputs:
+      MANIFEST_URL:
+        description: 'Kernel Manifest'
+        required: true
   kernel-url: https://github.com/a02-trial/a022f_kernel
     required: true
   depth:
