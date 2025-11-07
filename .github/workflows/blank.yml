@@ -15,11 +15,11 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://android.googlesource.com/kernel/common.git
-          kernel-branch: experimental/android-4.14
-          config: exynos_defconfig
+          kernel-url: https://github.com/almondnguyen/android_kernel_samsung_a01core
+          kernel-branch: master
+          config: a01core_defconfig
           arch: arm
           aosp-gcc: true
-          aosp-clang: true
+          aosp-clang: false
           android-version: 11
           
