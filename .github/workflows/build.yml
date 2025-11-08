@@ -5,15 +5,15 @@ on:
       MANIFEST_URL:
         description: 'Kernel Manifest'
         required: true
-        default: 'https://github.com/a02-trial/android_kernel-manifest'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
-        default: 'mt6739'
+        default: 'tw11'
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
-        default: 'build.config.mt6739'
+        default: 'mt6739/build.config.mt6739'
       KERNEL_IMAGE_NAME:
         description: 'Image'
         required: true
