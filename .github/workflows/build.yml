@@ -13,7 +13,7 @@ on:
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
-        default: 'mt6739/build.config.mt6739'
+        default: 'main/build.config.mt6739'
       KERNEL_IMAGE_NAME:
         description: 'Image'
         required: true
