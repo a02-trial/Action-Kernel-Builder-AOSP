@@ -5,7 +5,7 @@ on:
       MANIFEST_URL:
         description: 'Kernel Manifest'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
+        default: 'https://github.com/a02-trial/platform_manifest_twrp_aosp'
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
