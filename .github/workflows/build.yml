@@ -10,7 +10,7 @@ on:
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
-        default: 'twrp-12.1'
+        default: 'twrp-11'
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
