@@ -14,7 +14,7 @@ on:
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
-        default: 'mt6739/build.config.mt6739'
+        default: 'physwizz/build.config.mt6739'
       KERNEL_IMAGE_NAME:
         description: 'Image, Image.gz, Image.gz-dtb, etc.'
         required: true
