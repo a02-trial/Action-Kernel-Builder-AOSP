@@ -6,15 +6,15 @@ on:
       MANIFEST_URL:
         description: 'Kernel Manifest'
         required: true
-        default: 'https://github.com/a02-trial/platform_manifest_twrp_aosp'
+        default: 'https://github.com/a02-trial/android_kernel-manifest'
       MANIFEST_BRANCH:
         description: 'Kernel Manifest Branch'
         required: true
-        default: 'twrp-11'
+        default: 'samsung/mt6739'
       BUILD_CONFIG:
         description: 'Customized build.config file'
         required: true
-        default: 'GCC/build.config.mt6739'
+        default: 'mt6739/build.config.mt6739'
       KERNEL_IMAGE_NAME:
         description: 'Image, Image.gz, Image.gz-dtb, etc.'
         required: true
